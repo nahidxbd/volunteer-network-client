@@ -1,0 +1,16 @@
+.cancel-btn{
+    background:#E3E3E3;
+    color:rgb(112, 108, 108);
+    border:none;
+    cursor:pointer;
+    border-radius:5px;
+  }
+  .cancel-btn:hover{
+      background:rgb(214, 118, 118);
+      color:white
+  }
+  
+  .cancel-btn:active{
+      background:rgb(226, 86, 86);
+      color:white
+  }

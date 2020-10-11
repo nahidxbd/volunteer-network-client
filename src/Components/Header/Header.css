@@ -1,0 +1,16 @@
+.header {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.register-btn {
+    background: #3F90FC!important;
+    font-size: 20px;
+    color: white!important;   
+}
+
+.admin-btn {
+    background:#434141!important;
+    font-size: 20px;
+    color: white!important;  
+}
