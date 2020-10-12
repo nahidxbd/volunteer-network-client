@@ -12,7 +12,7 @@ const EventTask = () => {
     const [del, setDel] = useState(false);
     const [task, setTask] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/volunteers')
+        fetch('https://polar-chamber-66344.herokuapp.com/volunteers')
             .then(res => res.json())
             .then(data => setTask(data))
     }, [del])

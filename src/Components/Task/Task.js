@@ -8,7 +8,7 @@ const Task = (props) => {
 
     const { date, event, _id } = props.eventData;
     const handleClick = (id) => {
-        fetch(`http://localhost:5000/delete/${id}`, {
+        fetch(`https://polar-chamber-66344.herokuapp.com/delete/${id}`, {
             method: 'DELETE'
         })
             .then(res => res.json())

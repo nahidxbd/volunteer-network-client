@@ -24,7 +24,7 @@ const RegisterForm = () => {
         event.preventDefault()
 
         const volunteer = { ...loggedInUser, ...eventDetails }
-        fetch('http://localhost:5000/addVolunteer', {
+        fetch('https://polar-chamber-66344.herokuapp.com/addVolunteer', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(volunteer)
