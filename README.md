@@ -4,6 +4,7 @@ I am a Front End developer with experience building websites and web application
 Web development is my passion and I’m looking forward to bringing that passion to a full-time role. 
 
 Overview: User can register as a volunteer.
+
 • User can check all of his/her registered event list in users dashboard. and user can cancel his/her registered event.
 
 • Admin can add or remove events also admin can control users activity.
